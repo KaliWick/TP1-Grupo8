@@ -50,6 +50,7 @@ namespace TP1_GRUPO_8
         //Al apretar > , pasar el nombre a la segunda lista y eliminar de la primera
         private void btnUno_Click(object sender, EventArgs e)
         {
+            //faltaria verificar que haya un elemento seleccionado
             if (lbNombres1.SelectedItems.Count > 0)
             {
                 lbNombres2.Items.Add(lbNombres1.SelectedItem.ToString());
