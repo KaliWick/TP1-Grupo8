@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp1-grupo8\\tp1_grupo_8\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\ejercicio1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\ejercicio1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\tp1_grupo_8\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E111FBC7-8D81-4F78-8204-E9626F1F0987}|TP1_GRUPO_8\\TP1_GRUPO_8.csproj|solutionrelative:tp1_grupo_8\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Program.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Program.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Program.cs",
+              "RelativeToolTip": "TP1_GRUPO_8\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T17:18:39.945Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ejercicio1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio1.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs [Design]",
+              "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:46:12.948Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ejercicio1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.Designer.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio1.Designer.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.Designer.cs",
+              "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio1.Designer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T17:18:44.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ejercicio1.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio1.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs",
+              "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio1.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAqwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:49:53.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ejercicio2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio2.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio2.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP1_GRUPO_8\\TP1_GRUPO_8\\TP1_GRUPO_8\\Ejercicio2.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Administrator\\Downloads\\TP1_GRUPO_8\\TP1_GRUPO_8\\TP1_GRUPO_8\\Ejercicio2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:50:51.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Form1.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Form1.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Escritorio\\Lab\\prog 3\\tps\\TP1_GRUPO_8\\TP1_GRUPO_8\\TP1_GRUPO_8\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Escritorio\\Lab\\prog 3\\tps\\TP1_GRUPO_8\\TP1_GRUPO_8\\TP1_GRUPO_8\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T22:24:26.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ejercicio3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio3.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio3.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP1_GRUPO_8\\TP1_GRUPO_8\\TP1_GRUPO_8\\Ejercicio3.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Administrator\\Downloads\\TP1_GRUPO_8\\TP1_GRUPO_8\\TP1_GRUPO_8\\Ejercicio3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:51:07.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ejercicio3.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio3.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio3.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio3.cs",
+              "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:51:23.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Form1.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Form1.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Form1.cs",
+              "RelativeToolTip": "TP1_GRUPO_8\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T22:44:19.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ejercicio2.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio2.cs",
+              "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio2.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio2.cs",
+              "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:51:16.237Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
