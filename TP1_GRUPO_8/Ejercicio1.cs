@@ -62,21 +62,22 @@ namespace TP1_GRUPO_8
                 MessageBox.Show("No se ha seleccionado ningun nombre");
             }
         }
-        private void btnTodos_Click(object sender, EventArgs e)
-{
-    if(lbNombres1.Items.Count > 0)
-    {
 
-        foreach(string n in lbNombres1.Items)
+        private void btnTodos_Click(object sender, EventArgs e)
         {
-            lbNombres2.Items.Add(n);   
+            if (lbNombres1.Items.Count > 0)
+            {
+
+                foreach (string n in lbNombres1.Items)
+                {
+                    lbNombres2.Items.Add(n);
+                }
+                lbNombres1.Items.Clear();
+            }
+            else
+            {
+                MessageBox.Show("No hay nombres en la lista");
+            }
         }
-        lbNombres1.Items.Clear();   
-    }
-    else
-    {
-        MessageBox.Show("No hay nombres en la lista");
-    }
-}
     }
 }
