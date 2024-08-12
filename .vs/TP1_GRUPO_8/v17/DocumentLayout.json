@@ -68,14 +68,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ejercicio1.cs [Design]",
+              "Title": "Ejercicio1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs",
               "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio1.cs",
-              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs [Design]",
-              "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio1.cs [Design]",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T12:46:12.948Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -87,7 +87,8 @@
               "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio1.Designer.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T17:18:44.425Z"
+              "WhenOpened": "2024-08-12T17:18:44.425Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,7 +98,7 @@
               "RelativeDocumentMoniker": "TP1_GRUPO_8\\Ejercicio1.cs",
               "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP1-Grupo8\\TP1_GRUPO_8\\Ejercicio1.cs",
               "RelativeToolTip": "TP1_GRUPO_8\\Ejercicio1.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAqwC8AAAAJAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAwD0AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T12:49:53.466Z",
               "EditorCaption": ""

@@ -51,10 +51,16 @@ namespace TP1_GRUPO_8
         private void btnUno_Click(object sender, EventArgs e)
         {
             //faltaria verificar que haya un elemento seleccionado
+            if (lbNombres1.SelectedItems.Count > 0)
+            {
+                lbNombres2.Items.Add(lbNombres1.SelectedItem.ToString());
 
-            lbNombres2.Items.Add (lbNombres1.SelectedItem.ToString());
-
-            lbNombres1.Items.Remove(lbNombres1.SelectedItem);
+                lbNombres1.Items.Remove(lbNombres1.SelectedItem);
+            }
+            else
+            {
+                MessageBox.Show("No se ha seleccionado ningun nombre");
+            }
         }
     }
 }
