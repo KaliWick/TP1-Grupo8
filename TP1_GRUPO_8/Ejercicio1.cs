@@ -17,6 +17,7 @@ namespace TP1_GRUPO_8
             InitializeComponent();
         }
 
+        //Cargar nombres
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             string nuevoNombre = txtNombre.Text.Trim();
@@ -47,10 +48,9 @@ namespace TP1_GRUPO_8
             }
         }
 
-        //Al apretar > , pasar el nombre a la segunda lista y eliminar de la primera
-        private void btnUno_Click(object sender, EventArgs e)
+        //Al apretar > pasar el nombre a la segunda lista
+        private void btnRight_Click(object sender, EventArgs e)
         {
-            //faltaria verificar que haya un elemento seleccionado
             if (lbNombres1.SelectedItems.Count > 0)
             {
                 lbNombres2.Items.Add(lbNombres1.SelectedItem.ToString());
@@ -63,7 +63,8 @@ namespace TP1_GRUPO_8
             }
         }
 
-        private void btnTodos_Click(object sender, EventArgs e)
+        //Al apretar >> pasar todos los nombres a la segunda lista
+        private void btnAll_Right_Click(object sender, EventArgs e)
         {
             if (lbNombres1.Items.Count > 0)
             {
@@ -80,8 +81,8 @@ namespace TP1_GRUPO_8
             }
         }
 
-
-        private void buttonLeft(object sender, EventArgs e)
+        //Al apretar < pasar el nombre a la primer lista
+        private void btnLeft_Click(object sender, EventArgs e)
         {
             if (lbNombres2.SelectedItems.Count > 0)
             {
@@ -94,7 +95,7 @@ namespace TP1_GRUPO_8
                 MessageBox.Show("No se ha seleccionado ningun nombre");
             }
         }
-
+        //Al apretar << pasar todos los nombres a la segunda lista
         private void btnAll_Left_Click(object sender, EventArgs e)
         {
             if (lbNombres2.Items.Count > 0)
@@ -111,6 +112,6 @@ namespace TP1_GRUPO_8
                 MessageBox.Show("No hay nombres en la lista");
             }
         }
+
     }
 }
-// PRUEBA DE GITHUB
