@@ -19,12 +19,38 @@ namespace TP1_GRUPO_8
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            if (txtApellido.Text.Trim()!="" && txtNombre.Text.Trim()!="")
+            bool isDup = false;
+            string nuevoNombre = txtNombre.Text.Trim() + " " + txtApellido.Text.Trim();
+
+            foreach (var item in lbLista.Items)
             {
-                lblNombre.Text.Trim();
-                lblApellido.Text.Trim();
-                lbLista.Items.Add(txtNombre.Text + " " + txtApellido.Text);
+                if (item.ToString().ToUpper().Trim() == nuevoNombre.ToUpper())
+                {
+                    isDup = true;
+                    break;
+                }
             }
+
+            if (isDup)
+            {
+                MessageBox.Show("Esa persona ya esta registrada");
+            }
+            else if (txtApellido.Text.Trim().Length == 0 && txtNombre.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Ingrese un nombre y un apellido");
+            }
+            else
+            {
+                lbLista.Items.Add(nuevoNombre);
+
+                txtNombre.Text = "";
+                txtApellido.Text = "";
+            }
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            lbLista.Items.Clear();
         }
     }
 }
