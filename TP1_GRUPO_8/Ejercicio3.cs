@@ -41,5 +41,19 @@ namespace TP1_GRUPO_8
         {
 
         }
+
+        private void btnSeleccion_Click(object sender, EventArgs e)
+        {
+            string selection;
+            selection = "Usted selecciono los siguientes elementos:" + "\n\r";
+            selection += "Sexo: " + (string)(rbFemenino.Checked ? "Femenino" : "Masculino") + "\n\r";
+            selection += "Estado Civil: " + (string)(rbCasado.Checked ? "Casado" : "Soltero") + "\n\r";
+            selection += "Oficio: " + "\n\r";
+            for (int i = 0; i < clbOficio.CheckedItems.Count; i++)
+            {
+                selection += "-" + clbOficio.CheckedItems[i].ToString() + "\n\r";
+            }
+            lblSeleccion.Text = selection;
+        }
     }
 }
