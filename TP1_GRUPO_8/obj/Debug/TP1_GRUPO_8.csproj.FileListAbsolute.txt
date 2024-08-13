@@ -60,3 +60,16 @@ C:\Users\USURIO\OneDrive\Escritorio\Programacion III\Proyectos .NET\TP1-Grupo8\T
 C:\Users\USURIO\OneDrive\Escritorio\Programacion III\Proyectos .NET\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.CoreCompileInputs.cache
 C:\Users\USURIO\OneDrive\Escritorio\Programacion III\Proyectos .NET\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.exe
 C:\Users\USURIO\OneDrive\Escritorio\Programacion III\Proyectos .NET\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.pdb
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\bin\Debug\TP1_GRUPO_8.exe.config
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\bin\Debug\TP1_GRUPO_8.exe
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\bin\Debug\TP1_GRUPO_8.pdb
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.AssemblyReference.cache
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.Ejercicio1.resources
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.Ejercicio2.resources
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.Ejercicio3.resources
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.TP1_GRUPO_8.resources
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.Properties.Resources.resources
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.GenerateResource.cache
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.CoreCompileInputs.cache
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.exe
+D:\PC\Desktop\UTN\Programación 3\TP1-Grupo8\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.pdb

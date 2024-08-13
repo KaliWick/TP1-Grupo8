@@ -35,6 +35,8 @@
             this.lbNombres2 = new System.Windows.Forms.ListBox();
             this.btnUno = new System.Windows.Forms.Button();
             this.btnTodos = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnAll_Left = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblIngresarNombre
@@ -84,7 +86,7 @@
             // btnUno
             // 
             this.btnUno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUno.Location = new System.Drawing.Point(366, 219);
+            this.btnUno.Location = new System.Drawing.Point(366, 153);
             this.btnUno.Name = "btnUno";
             this.btnUno.Size = new System.Drawing.Size(75, 23);
             this.btnUno.TabIndex = 5;
@@ -95,7 +97,7 @@
             // btnTodos
             // 
             this.btnTodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTodos.Location = new System.Drawing.Point(366, 282);
+            this.btnTodos.Location = new System.Drawing.Point(366, 222);
             this.btnTodos.Name = "btnTodos";
             this.btnTodos.Size = new System.Drawing.Size(75, 23);
             this.btnTodos.TabIndex = 6;
@@ -103,11 +105,35 @@
             this.btnTodos.UseVisualStyleBackColor = true;
             this.btnTodos.Click += new System.EventHandler(this.btnTodos_Click);
             // 
+            // btnLeft
+            // 
+            this.btnLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeft.Location = new System.Drawing.Point(366, 287);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(75, 23);
+            this.btnLeft.TabIndex = 7;
+            this.btnLeft.Text = "<";
+            this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.buttonLeft);
+            // 
+            // btnAll_Left
+            // 
+            this.btnAll_Left.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAll_Left.Location = new System.Drawing.Point(366, 352);
+            this.btnAll_Left.Name = "btnAll_Left";
+            this.btnAll_Left.Size = new System.Drawing.Size(75, 23);
+            this.btnAll_Left.TabIndex = 8;
+            this.btnAll_Left.Text = "<<";
+            this.btnAll_Left.UseVisualStyleBackColor = true;
+            this.btnAll_Left.Click += new System.EventHandler(this.btnAll_Left_Click);
+            // 
             // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAll_Left);
+            this.Controls.Add(this.btnLeft);
             this.Controls.Add(this.btnTodos);
             this.Controls.Add(this.btnUno);
             this.Controls.Add(this.lbNombres2);
@@ -132,5 +158,7 @@
         private System.Windows.Forms.ListBox lbNombres2;
         private System.Windows.Forms.Button btnUno;
         private System.Windows.Forms.Button btnTodos;
+        private System.Windows.Forms.Button btnLeft;
+        private System.Windows.Forms.Button btnAll_Left;
     }
 }

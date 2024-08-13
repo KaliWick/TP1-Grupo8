@@ -79,6 +79,38 @@ namespace TP1_GRUPO_8
                 MessageBox.Show("No hay nombres en la lista");
             }
         }
+
+
+        private void buttonLeft(object sender, EventArgs e)
+        {
+            if (lbNombres2.SelectedItems.Count > 0)
+            {
+                lbNombres1.Items.Add(lbNombres2.SelectedItem.ToString());
+
+                lbNombres2.Items.Remove(lbNombres2.SelectedItem);
+            }
+            else
+            {
+                MessageBox.Show("No se ha seleccionado ningun nombre");
+            }
+        }
+
+        private void btnAll_Left_Click(object sender, EventArgs e)
+        {
+            if (lbNombres2.Items.Count > 0)
+            {
+
+                foreach (string n in lbNombres2.Items)
+                {
+                    lbNombres1.Items.Add(n);
+                }
+                lbNombres2.Items.Clear();
+            }
+            else
+            {
+                MessageBox.Show("No hay nombres en la lista");
+            }
+        }
     }
 }
 // PRUEBA DE GITHUB

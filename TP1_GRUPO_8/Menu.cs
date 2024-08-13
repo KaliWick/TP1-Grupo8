@@ -34,5 +34,10 @@ namespace TP1_GRUPO_8
             Ejercicio3 ejercicio3 = new Ejercicio3();
             ejercicio3.Show();
         }
+
+        private void TP1_GRUPO_8_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
