@@ -39,6 +39,14 @@ namespace TP1_GRUPO_8
             {
                 MessageBox.Show("Ingrese un nombre y un apellido");
             }
+            else if (txtNombre.Text.Trim().Length==0)
+            {
+                MessageBox.Show("Ingrese un nombre");
+            }
+            else if(txtApellido.Text.Trim().Length==0)
+            {
+                MessageBox.Show("Ingrese un apellido");
+            }
             else
             {
                 lbLista.Items.Add(nuevoNombre);
@@ -50,7 +58,15 @@ namespace TP1_GRUPO_8
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            lbLista.Items.Clear();
+            
+            if (lbLista.SelectedItems.Count==0)
+            {
+                MessageBox.Show("Debe seleccionar un Item");
+            }
+            else
+            {
+                lbLista.Items.Remove(lbLista.SelectedItem);
+            }
         }
     }
 }
