@@ -90,5 +90,20 @@ namespace TP1_GRUPO_8
         {
             btnBorrar.BackColor = SystemColors.InactiveBorder;
         }
+
+        private void lbLista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
