@@ -69,18 +69,22 @@
             // 
             // lbNombres1
             // 
+            this.lbNombres1.ForeColor = System.Drawing.Color.Green;
             this.lbNombres1.FormattingEnabled = true;
             this.lbNombres1.Location = new System.Drawing.Point(85, 110);
             this.lbNombres1.Name = "lbNombres1";
             this.lbNombres1.Size = new System.Drawing.Size(183, 290);
+            this.lbNombres1.Sorted = true;
             this.lbNombres1.TabIndex = 3;
             // 
             // lbNombres2
             // 
+            this.lbNombres2.ForeColor = System.Drawing.Color.Red;
             this.lbNombres2.FormattingEnabled = true;
             this.lbNombres2.Location = new System.Drawing.Point(511, 110);
             this.lbNombres2.Name = "lbNombres2";
             this.lbNombres2.Size = new System.Drawing.Size(183, 290);
+            this.lbNombres2.Sorted = true;
             this.lbNombres2.TabIndex = 4;
             // 
             // btnRight
