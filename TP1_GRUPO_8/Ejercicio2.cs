@@ -68,5 +68,25 @@ namespace TP1_GRUPO_8
                 lbLista.Items.Remove(lbLista.SelectedItem);
             }
         }
+        //hover boton registrar
+        private void btnRegistrar_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnRegistrar.BackColor = Color.LightBlue;
+        }
+
+        private void btnRegistrar_MouseLeave(object sender, EventArgs e)
+        {
+            btnRegistrar.BackColor = SystemColors.InactiveBorder;
+        }
+        //hover boton borrar
+        private void btnBorrar_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnBorrar.BackColor = Color.LightBlue;
+        }
+
+        private void btnBorrar_MouseLeave(object sender, EventArgs e)
+        {
+            btnBorrar.BackColor = SystemColors.InactiveBorder;
+        }
     }
 }

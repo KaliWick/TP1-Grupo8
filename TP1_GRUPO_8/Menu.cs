@@ -39,5 +39,36 @@ namespace TP1_GRUPO_8
         {
 
         }
+        //hover boton ej1
+        private void BtnEjercicio1_MouseMove(object sender, MouseEventArgs e)
+        {
+            BtnEjercicio1.BackColor = Color.LightBlue;
+        }
+
+        private void BtnEjercicio1_MouseLeave(object sender, EventArgs e)
+        {
+            BtnEjercicio1.BackColor = SystemColors.InactiveBorder;
+        }
+
+        //hover boton ej2
+        private void BtnEjercicio2_MouseMove(object sender, MouseEventArgs e)
+        {
+            BtnEjercicio2.BackColor = Color.LightBlue;
+        }
+
+        private void BtnEjercicio2_MouseLeave(object sender, EventArgs e)
+        {
+            BtnEjercicio2.BackColor = SystemColors.InactiveBorder;
+        }
+        //hover boton ej3
+        private void BtnEjercicio3_MouseMove(object sender, MouseEventArgs e)
+        {
+            BtnEjercicio3.BackColor = Color.LightBlue;
+        }
+
+        private void BtnEjercicio3_MouseLeave(object sender, EventArgs e)
+        {
+            BtnEjercicio3.BackColor = SystemColors.InactiveBorder;
+        }
     }
 }

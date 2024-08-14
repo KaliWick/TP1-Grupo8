@@ -113,5 +113,59 @@ namespace TP1_GRUPO_8
             }
         }
 
+        //Hover boton Agregar
+        private void btnAgregar_MouseEnter(object sender, EventArgs e)
+        {
+            btnAgregar.BackColor = Color.LightBlue;
+        }
+
+        private void btnAgregar_MouseLeave(object sender, EventArgs e)
+        {
+            btnAgregar.BackColor = SystemColors.InactiveBorder;
+        }
+
+        //Hover flecha >
+        private void btnRight_MouseMove_1(object sender, MouseEventArgs e)
+        {
+            btnRight.BackColor = Color.LightBlue;
+        }
+
+        private void btnRight_MouseLeave(object sender, EventArgs e)
+        {
+            btnRight.BackColor = SystemColors.InactiveBorder;
+        }
+
+        //Hover flecha >>
+        private void btnAll_Right_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnAll_Right.BackColor = Color.LightBlue;
+        }
+
+        private void btnAll_Right_MouseLeave(object sender, EventArgs e)
+        {
+            btnAll_Right.BackColor = SystemColors.InactiveBorder;
+        }
+
+        //hover flecha <
+        private void btnLeft_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnLeft.BackColor = Color.LightBlue;
+        }
+        private void btnLeft_MouseLeave(object sender, EventArgs e)
+        {
+            btnLeft.BackColor = SystemColors.InactiveBorder;
+        }
+
+        //hover flecha <<
+        private void btnAll_Left_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnAll_Left.BackColor = Color.LightBlue;
+        }
+        private void btnAll_Left_MouseLeave(object sender, EventArgs e)
+        {
+            btnAll_Left.BackColor = SystemColors.InactiveBorder;
+        }
+
+
     }
 }

@@ -55,7 +55,7 @@
             // 
             this.lblNombre2.AutoSize = true;
             this.lblNombre2.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre2.Location = new System.Drawing.Point(104, 262);
+            this.lblNombre2.Location = new System.Drawing.Point(52, 262);
             this.lblNombre2.Name = "lblNombre2";
             this.lblNombre2.Size = new System.Drawing.Size(132, 25);
             this.lblNombre2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             this.lblNombre1.AutoSize = true;
             this.lblNombre1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre1.Location = new System.Drawing.Point(104, 236);
+            this.lblNombre1.Location = new System.Drawing.Point(52, 236);
             this.lblNombre1.Name = "lblNombre1";
             this.lblNombre1.Size = new System.Drawing.Size(123, 25);
             this.lblNombre1.TabIndex = 2;
@@ -73,42 +73,60 @@
             // 
             // BtnEjercicio1
             // 
+            this.BtnEjercicio1.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.BtnEjercicio1.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.BtnEjercicio1.FlatAppearance.BorderSize = 2;
+            this.BtnEjercicio1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEjercicio1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEjercicio1.Location = new System.Drawing.Point(54, 60);
+            this.BtnEjercicio1.Location = new System.Drawing.Point(57, 60);
             this.BtnEjercicio1.Name = "BtnEjercicio1";
-            this.BtnEjercicio1.Size = new System.Drawing.Size(107, 58);
+            this.BtnEjercicio1.Size = new System.Drawing.Size(152, 79);
             this.BtnEjercicio1.TabIndex = 3;
             this.BtnEjercicio1.Text = "EJERCICIO 1";
-            this.BtnEjercicio1.UseVisualStyleBackColor = true;
+            this.BtnEjercicio1.UseVisualStyleBackColor = false;
             this.BtnEjercicio1.Click += new System.EventHandler(this.BtnEjercicio1_Click);
+            this.BtnEjercicio1.MouseLeave += new System.EventHandler(this.BtnEjercicio1_MouseLeave);
+            this.BtnEjercicio1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BtnEjercicio1_MouseMove);
             // 
             // BtnEjercicio2
             // 
+            this.BtnEjercicio2.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.BtnEjercicio2.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.BtnEjercicio2.FlatAppearance.BorderSize = 2;
+            this.BtnEjercicio2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEjercicio2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEjercicio2.Location = new System.Drawing.Point(333, 60);
+            this.BtnEjercicio2.Location = new System.Drawing.Point(350, 60);
             this.BtnEjercicio2.Name = "BtnEjercicio2";
-            this.BtnEjercicio2.Size = new System.Drawing.Size(107, 58);
+            this.BtnEjercicio2.Size = new System.Drawing.Size(152, 79);
             this.BtnEjercicio2.TabIndex = 4;
             this.BtnEjercicio2.Text = "EJERCICIO 2";
-            this.BtnEjercicio2.UseVisualStyleBackColor = true;
+            this.BtnEjercicio2.UseVisualStyleBackColor = false;
             this.BtnEjercicio2.Click += new System.EventHandler(this.BtnEjercicio2_Click);
+            this.BtnEjercicio2.MouseLeave += new System.EventHandler(this.BtnEjercicio2_MouseLeave);
+            this.BtnEjercicio2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BtnEjercicio2_MouseMove);
             // 
             // BtnEjercicio3
             // 
+            this.BtnEjercicio3.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.BtnEjercicio3.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.BtnEjercicio3.FlatAppearance.BorderSize = 2;
+            this.BtnEjercicio3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEjercicio3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEjercicio3.Location = new System.Drawing.Point(612, 60);
+            this.BtnEjercicio3.Location = new System.Drawing.Point(638, 60);
             this.BtnEjercicio3.Name = "BtnEjercicio3";
-            this.BtnEjercicio3.Size = new System.Drawing.Size(107, 58);
+            this.BtnEjercicio3.Size = new System.Drawing.Size(152, 79);
             this.BtnEjercicio3.TabIndex = 5;
             this.BtnEjercicio3.Text = "EJERCICIO 3";
-            this.BtnEjercicio3.UseVisualStyleBackColor = true;
+            this.BtnEjercicio3.UseVisualStyleBackColor = false;
             this.BtnEjercicio3.Click += new System.EventHandler(this.BtnEjercicio3_Click);
+            this.BtnEjercicio3.MouseLeave += new System.EventHandler(this.BtnEjercicio3_MouseLeave);
+            this.BtnEjercicio3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BtnEjercicio3_MouseMove);
             // 
             // lblNombre3
             // 
             this.lblNombre3.AutoSize = true;
             this.lblNombre3.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre3.Location = new System.Drawing.Point(104, 286);
+            this.lblNombre3.Location = new System.Drawing.Point(52, 286);
             this.lblNombre3.Name = "lblNombre3";
             this.lblNombre3.Size = new System.Drawing.Size(128, 25);
             this.lblNombre3.TabIndex = 6;
@@ -118,7 +136,7 @@
             // 
             this.lblNombre4.AutoSize = true;
             this.lblNombre4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre4.Location = new System.Drawing.Point(104, 310);
+            this.lblNombre4.Location = new System.Drawing.Point(52, 310);
             this.lblNombre4.Name = "lblNombre4";
             this.lblNombre4.Size = new System.Drawing.Size(111, 25);
             this.lblNombre4.TabIndex = 7;
@@ -128,7 +146,7 @@
             // 
             this.lblNombre5.AutoSize = true;
             this.lblNombre5.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre5.Location = new System.Drawing.Point(104, 334);
+            this.lblNombre5.Location = new System.Drawing.Point(52, 334);
             this.lblNombre5.Name = "lblNombre5";
             this.lblNombre5.Size = new System.Drawing.Size(129, 25);
             this.lblNombre5.TabIndex = 8;
@@ -138,7 +156,7 @@
             // 
             this.lblNombre6.AutoSize = true;
             this.lblNombre6.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre6.Location = new System.Drawing.Point(104, 358);
+            this.lblNombre6.Location = new System.Drawing.Point(52, 358);
             this.lblNombre6.Name = "lblNombre6";
             this.lblNombre6.Size = new System.Drawing.Size(180, 25);
             this.lblNombre6.TabIndex = 9;
@@ -158,7 +176,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(802, 450);
+            this.BackColor = System.Drawing.SystemColors.Info;
+            this.ClientSize = new System.Drawing.Size(844, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblNombre6);
             this.Controls.Add(this.lblNombre5);
