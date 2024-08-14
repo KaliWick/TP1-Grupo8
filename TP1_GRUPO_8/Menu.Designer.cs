@@ -39,6 +39,8 @@
             this.lblNombre5 = new System.Windows.Forms.Label();
             this.lblNombre6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIntegrantes
@@ -55,7 +57,7 @@
             // 
             this.lblNombre2.AutoSize = true;
             this.lblNombre2.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre2.Location = new System.Drawing.Point(52, 262);
+            this.lblNombre2.Location = new System.Drawing.Point(71, 258);
             this.lblNombre2.Name = "lblNombre2";
             this.lblNombre2.Size = new System.Drawing.Size(132, 25);
             this.lblNombre2.TabIndex = 1;
@@ -65,7 +67,7 @@
             // 
             this.lblNombre1.AutoSize = true;
             this.lblNombre1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre1.Location = new System.Drawing.Point(52, 236);
+            this.lblNombre1.Location = new System.Drawing.Point(71, 232);
             this.lblNombre1.Name = "lblNombre1";
             this.lblNombre1.Size = new System.Drawing.Size(123, 25);
             this.lblNombre1.TabIndex = 2;
@@ -129,7 +131,7 @@
             // 
             this.lblNombre3.AutoSize = true;
             this.lblNombre3.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre3.Location = new System.Drawing.Point(52, 286);
+            this.lblNombre3.Location = new System.Drawing.Point(71, 282);
             this.lblNombre3.Name = "lblNombre3";
             this.lblNombre3.Size = new System.Drawing.Size(128, 25);
             this.lblNombre3.TabIndex = 6;
@@ -139,7 +141,7 @@
             // 
             this.lblNombre4.AutoSize = true;
             this.lblNombre4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre4.Location = new System.Drawing.Point(52, 310);
+            this.lblNombre4.Location = new System.Drawing.Point(71, 306);
             this.lblNombre4.Name = "lblNombre4";
             this.lblNombre4.Size = new System.Drawing.Size(111, 25);
             this.lblNombre4.TabIndex = 7;
@@ -149,7 +151,7 @@
             // 
             this.lblNombre5.AutoSize = true;
             this.lblNombre5.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre5.Location = new System.Drawing.Point(52, 334);
+            this.lblNombre5.Location = new System.Drawing.Point(71, 330);
             this.lblNombre5.Name = "lblNombre5";
             this.lblNombre5.Size = new System.Drawing.Size(129, 25);
             this.lblNombre5.TabIndex = 8;
@@ -159,7 +161,7 @@
             // 
             this.lblNombre6.AutoSize = true;
             this.lblNombre6.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre6.Location = new System.Drawing.Point(52, 358);
+            this.lblNombre6.Location = new System.Drawing.Point(71, 354);
             this.lblNombre6.Name = "lblNombre6";
             this.lblNombre6.Size = new System.Drawing.Size(180, 25);
             this.lblNombre6.TabIndex = 9;
@@ -175,12 +177,23 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "PROGRAMACIÓN III - TM C1";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::TP1_GRUPO_8.Properties.Resources.logo_footer__1___1_;
+            this.pictureBox1.Location = new System.Drawing.Point(525, 160);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(249, 235);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // TP1_GRUPO_8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(844, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblNombre6);
             this.Controls.Add(this.lblNombre5);
@@ -196,6 +209,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TP1_GRUPO_8";
             this.Load += new System.EventHandler(this.TP1_GRUPO_8_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,6 +228,7 @@
         private System.Windows.Forms.Label lblNombre5;
         private System.Windows.Forms.Label lblNombre6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

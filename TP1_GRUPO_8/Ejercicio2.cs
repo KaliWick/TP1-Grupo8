@@ -71,24 +71,24 @@ namespace TP1_GRUPO_8
         //hover boton registrar
         private void btnRegistrar_MouseMove(object sender, MouseEventArgs e)
         {
-            btnRegistrar.BackColor = Color.LightBlue;
+            btnRegistrar.BackColor = Color.Green;
             btnRegistrar.Cursor = Cursors.Hand;
         }
 
         private void btnRegistrar_MouseLeave(object sender, EventArgs e)
         {
-            btnRegistrar.BackColor = SystemColors.InactiveBorder;
+            btnRegistrar.BackColor = Color.Green;
         }
         //hover boton borrar
         private void btnBorrar_MouseMove(object sender, MouseEventArgs e)
         {
-            btnBorrar.BackColor = Color.LightBlue;
+            btnBorrar.BackColor = Color.Red;
             btnBorrar.Cursor = Cursors.Hand;
         }
 
         private void btnBorrar_MouseLeave(object sender, EventArgs e)
         {
-            btnBorrar.BackColor = SystemColors.InactiveBorder;
+            btnBorrar.BackColor = Color.Red;
         }
 
         private void lbLista_SelectedIndexChanged(object sender, EventArgs e)

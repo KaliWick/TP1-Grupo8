@@ -59,12 +59,13 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnAgregar.BackColor = System.Drawing.Color.Green;
             this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.btnAgregar.FlatAppearance.BorderSize = 2;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
             this.btnAgregar.Location = new System.Drawing.Point(598, 47);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(96, 34);
@@ -104,7 +105,7 @@
             // 
             // btnRight
             // 
-            this.btnRight.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnRight.BackColor = System.Drawing.Color.SkyBlue;
             this.btnRight.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRight.Location = new System.Drawing.Point(366, 153);
@@ -119,7 +120,7 @@
             // 
             // btnAll_Right
             // 
-            this.btnAll_Right.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnAll_Right.BackColor = System.Drawing.Color.SkyBlue;
             this.btnAll_Right.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAll_Right.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAll_Right.Location = new System.Drawing.Point(366, 182);
@@ -134,7 +135,7 @@
             // 
             // btnLeft
             // 
-            this.btnLeft.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnLeft.BackColor = System.Drawing.Color.SkyBlue;
             this.btnLeft.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLeft.Location = new System.Drawing.Point(366, 299);
@@ -149,7 +150,7 @@
             // 
             // btnAll_Left
             // 
-            this.btnAll_Left.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnAll_Left.BackColor = System.Drawing.Color.SkyBlue;
             this.btnAll_Left.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAll_Left.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAll_Left.Location = new System.Drawing.Point(366, 328);

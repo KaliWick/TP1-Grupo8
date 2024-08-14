@@ -116,12 +116,12 @@ namespace TP1_GRUPO_8
         //Hover boton Agregar
         private void btnAgregar_MouseEnter(object sender, EventArgs e)
         {
-            btnAgregar.BackColor = Color.LightBlue;
+            btnAgregar.BackColor = Color.Green;
         }
 
         private void btnAgregar_MouseLeave(object sender, EventArgs e)
         {
-            btnAgregar.BackColor = SystemColors.InactiveBorder;
+            btnAgregar.BackColor = Color.Green;
         }
 
         //Hover flecha >
@@ -132,7 +132,7 @@ namespace TP1_GRUPO_8
 
         private void btnRight_MouseLeave(object sender, EventArgs e)
         {
-            btnRight.BackColor = SystemColors.InactiveBorder;
+            btnRight.BackColor = Color.SkyBlue;
         }
 
         //Hover flecha >>
@@ -143,7 +143,7 @@ namespace TP1_GRUPO_8
 
         private void btnAll_Right_MouseLeave(object sender, EventArgs e)
         {
-            btnAll_Right.BackColor = SystemColors.InactiveBorder;
+            btnAll_Right.BackColor = Color.SkyBlue;
         }
 
         //hover flecha <
@@ -153,7 +153,7 @@ namespace TP1_GRUPO_8
         }
         private void btnLeft_MouseLeave(object sender, EventArgs e)
         {
-            btnLeft.BackColor = SystemColors.InactiveBorder;
+            btnLeft.BackColor = Color.SkyBlue;
         }
 
         //hover flecha <<
@@ -163,7 +163,7 @@ namespace TP1_GRUPO_8
         }
         private void btnAll_Left_MouseLeave(object sender, EventArgs e)
         {
-            btnAll_Left.BackColor = SystemColors.InactiveBorder;
+            btnAll_Left.BackColor = Color.SkyBlue;
         }
 
         private void Ejercicio1_Load(object sender, EventArgs e)

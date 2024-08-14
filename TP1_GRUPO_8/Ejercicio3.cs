@@ -64,12 +64,12 @@ namespace TP1_GRUPO_8
 
         private void btnSeleccion_MouseMove(object sender, MouseEventArgs e)
         {
-            btnSeleccion.BackColor = Color.LightBlue;
+            btnSeleccion.BackColor = Color.DimGray;
         }
 
         private void btnSeleccion_MouseLeave(object sender, EventArgs e)
         {
-            btnSeleccion.BackColor = SystemColors.InactiveBorder;
+            btnSeleccion.BackColor = Color.DimGray;
         }
 
         private void Ejercicio3_Load(object sender, EventArgs e)

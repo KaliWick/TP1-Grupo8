@@ -43,7 +43,7 @@
             // 
             // clbOficio
             // 
-            this.clbOficio.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.clbOficio.BackColor = System.Drawing.SystemColors.Info;
             this.clbOficio.CheckOnClick = true;
             this.clbOficio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.clbOficio.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -54,7 +54,7 @@
             "Programador",
             "Reparador de PC",
             "Tester"});
-            this.clbOficio.Location = new System.Drawing.Point(211, 153);
+            this.clbOficio.Location = new System.Drawing.Point(224, 124);
             this.clbOficio.Name = "clbOficio";
             this.clbOficio.Size = new System.Drawing.Size(216, 89);
             this.clbOficio.TabIndex = 0;
@@ -62,14 +62,16 @@
             // 
             // btnSeleccion
             // 
+            this.btnSeleccion.BackColor = System.Drawing.Color.DimGray;
             this.btnSeleccion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSeleccion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccion.Location = new System.Drawing.Point(211, 263);
+            this.btnSeleccion.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSeleccion.Location = new System.Drawing.Point(224, 223);
             this.btnSeleccion.Name = "btnSeleccion";
             this.btnSeleccion.Size = new System.Drawing.Size(216, 40);
             this.btnSeleccion.TabIndex = 4;
             this.btnSeleccion.Text = "Mostrar lo que se seleccionó";
-            this.btnSeleccion.UseVisualStyleBackColor = true;
+            this.btnSeleccion.UseVisualStyleBackColor = false;
             this.btnSeleccion.Click += new System.EventHandler(this.btnSeleccion_Click);
             this.btnSeleccion.MouseLeave += new System.EventHandler(this.btnSeleccion_MouseLeave);
             this.btnSeleccion.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnSeleccion_MouseMove);
@@ -79,7 +81,7 @@
             this.gbSexo.Controls.Add(this.rbMasculino);
             this.gbSexo.Controls.Add(this.rbFemenino);
             this.gbSexo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbSexo.Location = new System.Drawing.Point(21, 35);
+            this.gbSexo.Location = new System.Drawing.Point(21, 15);
             this.gbSexo.Name = "gbSexo";
             this.gbSexo.Size = new System.Drawing.Size(200, 100);
             this.gbSexo.TabIndex = 8;
@@ -116,7 +118,7 @@
             this.gbEstadoCivil.Controls.Add(this.rbSoltero);
             this.gbEstadoCivil.Controls.Add(this.rbCasado);
             this.gbEstadoCivil.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbEstadoCivil.Location = new System.Drawing.Point(418, 35);
+            this.gbEstadoCivil.Location = new System.Drawing.Point(449, 15);
             this.gbEstadoCivil.Name = "gbEstadoCivil";
             this.gbEstadoCivil.Size = new System.Drawing.Size(200, 100);
             this.gbEstadoCivil.TabIndex = 9;
@@ -151,7 +153,7 @@
             // 
             this.lblSeleccion.AutoSize = true;
             this.lblSeleccion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeleccion.Location = new System.Drawing.Point(231, 306);
+            this.lblSeleccion.Location = new System.Drawing.Point(26, 293);
             this.lblSeleccion.Name = "lblSeleccion";
             this.lblSeleccion.Size = new System.Drawing.Size(0, 19);
             this.lblSeleccion.TabIndex = 10;
