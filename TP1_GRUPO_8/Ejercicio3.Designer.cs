@@ -57,7 +57,7 @@
             "Programador",
             "Reparador de PC",
             "Tester"});
-            this.clbOficio.Location = new System.Drawing.Point(6, 19);
+            this.clbOficio.Location = new System.Drawing.Point(6, 21);
             this.clbOficio.Name = "clbOficio";
             this.clbOficio.Size = new System.Drawing.Size(216, 89);
             this.clbOficio.TabIndex = 0;
