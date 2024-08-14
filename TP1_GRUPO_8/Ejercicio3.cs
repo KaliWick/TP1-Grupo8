@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -54,6 +55,36 @@ namespace TP1_GRUPO_8
                 selection += "-" + clbOficio.CheckedItems[i].ToString() + "\n\r";
             }
             lblSeleccion.Text = selection;
+        }
+
+        private void gbSexo_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSeleccion_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnSeleccion.BackColor = Color.LightBlue;
+        }
+
+        private void btnSeleccion_MouseLeave(object sender, EventArgs e)
+        {
+            btnSeleccion.BackColor = SystemColors.InactiveBorder;
+        }
+
+        private void Ejercicio3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_3(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -166,6 +166,14 @@ namespace TP1_GRUPO_8
             btnAll_Left.BackColor = SystemColors.InactiveBorder;
         }
 
+        private void Ejercicio1_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void lbNombres1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

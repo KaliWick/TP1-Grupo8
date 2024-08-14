@@ -86,6 +86,7 @@
             this.lbNombres1.Size = new System.Drawing.Size(183, 276);
             this.lbNombres1.Sorted = true;
             this.lbNombres1.TabIndex = 3;
+            this.lbNombres1.SelectedIndexChanged += new System.EventHandler(this.lbNombres1_SelectedIndexChanged);
             // 
             // lbNombres2
             // 
@@ -174,6 +175,7 @@
             this.Name = "Ejercicio1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio1";
+            this.Load += new System.EventHandler(this.Ejercicio1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
