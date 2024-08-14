@@ -59,6 +59,7 @@
             // 
             // btnRegistrar
             // 
+            this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnRegistrar.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.Location = new System.Drawing.Point(101, 342);
             this.btnRegistrar.Name = "btnRegistrar";
@@ -106,6 +107,7 @@
             this.lbLista.ItemHeight = 18;
             this.lbLista.Location = new System.Drawing.Point(479, 12);
             this.lbLista.Name = "lbLista";
+            this.lbLista.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lbLista.Size = new System.Drawing.Size(252, 292);
             this.lbLista.Sorted = true;
             this.lbLista.TabIndex = 6;

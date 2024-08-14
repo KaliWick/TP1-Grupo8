@@ -74,6 +74,7 @@
             // BtnEjercicio1
             // 
             this.BtnEjercicio1.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.BtnEjercicio1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEjercicio1.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.BtnEjercicio1.FlatAppearance.BorderSize = 2;
             this.BtnEjercicio1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -91,6 +92,7 @@
             // BtnEjercicio2
             // 
             this.BtnEjercicio2.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.BtnEjercicio2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEjercicio2.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.BtnEjercicio2.FlatAppearance.BorderSize = 2;
             this.BtnEjercicio2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -108,6 +110,7 @@
             // BtnEjercicio3
             // 
             this.BtnEjercicio3.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.BtnEjercicio3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEjercicio3.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.BtnEjercicio3.FlatAppearance.BorderSize = 2;
             this.BtnEjercicio3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

@@ -72,6 +72,7 @@ namespace TP1_GRUPO_8
         private void btnRegistrar_MouseMove(object sender, MouseEventArgs e)
         {
             btnRegistrar.BackColor = Color.LightBlue;
+            btnRegistrar.Cursor = Cursors.Hand;
         }
 
         private void btnRegistrar_MouseLeave(object sender, EventArgs e)
@@ -82,6 +83,7 @@ namespace TP1_GRUPO_8
         private void btnBorrar_MouseMove(object sender, MouseEventArgs e)
         {
             btnBorrar.BackColor = Color.LightBlue;
+            btnBorrar.Cursor = Cursors.Hand;
         }
 
         private void btnBorrar_MouseLeave(object sender, EventArgs e)

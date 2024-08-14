@@ -60,6 +60,7 @@
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.btnAgregar.FlatAppearance.BorderSize = 2;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -104,6 +105,7 @@
             // btnRight
             // 
             this.btnRight.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnRight.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRight.Location = new System.Drawing.Point(366, 153);
             this.btnRight.Name = "btnRight";
@@ -118,6 +120,7 @@
             // btnAll_Right
             // 
             this.btnAll_Right.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnAll_Right.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAll_Right.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAll_Right.Location = new System.Drawing.Point(366, 182);
             this.btnAll_Right.Name = "btnAll_Right";
@@ -132,6 +135,7 @@
             // btnLeft
             // 
             this.btnLeft.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnLeft.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLeft.Location = new System.Drawing.Point(366, 299);
             this.btnLeft.Name = "btnLeft";
@@ -146,6 +150,7 @@
             // btnAll_Left
             // 
             this.btnAll_Left.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnAll_Left.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAll_Left.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAll_Left.Location = new System.Drawing.Point(366, 328);
             this.btnAll_Left.Name = "btnAll_Left";

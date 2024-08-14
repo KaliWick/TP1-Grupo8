@@ -45,6 +45,7 @@
             // 
             this.clbOficio.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.clbOficio.CheckOnClick = true;
+            this.clbOficio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.clbOficio.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clbOficio.FormattingEnabled = true;
             this.clbOficio.Items.AddRange(new object[] {
@@ -61,6 +62,7 @@
             // 
             // btnSeleccion
             // 
+            this.btnSeleccion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSeleccion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeleccion.Location = new System.Drawing.Point(211, 263);
             this.btnSeleccion.Name = "btnSeleccion";
@@ -88,6 +90,7 @@
             // rbMasculino
             // 
             this.rbMasculino.AutoSize = true;
+            this.rbMasculino.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbMasculino.Location = new System.Drawing.Point(9, 59);
             this.rbMasculino.Name = "rbMasculino";
             this.rbMasculino.Size = new System.Drawing.Size(89, 23);
@@ -99,6 +102,7 @@
             // 
             this.rbFemenino.AutoSize = true;
             this.rbFemenino.Checked = true;
+            this.rbFemenino.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbFemenino.Location = new System.Drawing.Point(9, 36);
             this.rbFemenino.Name = "rbFemenino";
             this.rbFemenino.Size = new System.Drawing.Size(86, 23);
@@ -122,6 +126,7 @@
             // rbSoltero
             // 
             this.rbSoltero.AutoSize = true;
+            this.rbSoltero.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbSoltero.Location = new System.Drawing.Point(7, 59);
             this.rbSoltero.Name = "rbSoltero";
             this.rbSoltero.Size = new System.Drawing.Size(71, 23);
@@ -133,6 +138,7 @@
             // 
             this.rbCasado.AutoSize = true;
             this.rbCasado.Checked = true;
+            this.rbCasado.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbCasado.Location = new System.Drawing.Point(7, 36);
             this.rbCasado.Name = "rbCasado";
             this.rbCasado.Size = new System.Drawing.Size(74, 23);
