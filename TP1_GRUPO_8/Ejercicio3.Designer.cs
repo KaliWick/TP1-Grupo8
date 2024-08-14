@@ -37,15 +37,18 @@
             this.rbSoltero = new System.Windows.Forms.RadioButton();
             this.rbCasado = new System.Windows.Forms.RadioButton();
             this.lblSeleccion = new System.Windows.Forms.Label();
+            this.gbOficios = new System.Windows.Forms.GroupBox();
             this.gbSexo.SuspendLayout();
             this.gbEstadoCivil.SuspendLayout();
+            this.gbOficios.SuspendLayout();
             this.SuspendLayout();
             // 
             // clbOficio
             // 
+            this.clbOficio.AccessibleName = "";
             this.clbOficio.BackColor = System.Drawing.SystemColors.Info;
             this.clbOficio.CheckOnClick = true;
-            this.clbOficio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clbOficio.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.clbOficio.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clbOficio.FormattingEnabled = true;
             this.clbOficio.Items.AddRange(new object[] {
@@ -54,10 +57,11 @@
             "Programador",
             "Reparador de PC",
             "Tester"});
-            this.clbOficio.Location = new System.Drawing.Point(224, 124);
+            this.clbOficio.Location = new System.Drawing.Point(6, 19);
             this.clbOficio.Name = "clbOficio";
             this.clbOficio.Size = new System.Drawing.Size(216, 89);
             this.clbOficio.TabIndex = 0;
+            this.clbOficio.UseWaitCursor = true;
             this.clbOficio.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // btnSeleccion
@@ -66,7 +70,7 @@
             this.btnSeleccion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSeleccion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeleccion.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSeleccion.Location = new System.Drawing.Point(224, 223);
+            this.btnSeleccion.Location = new System.Drawing.Point(224, 241);
             this.btnSeleccion.Name = "btnSeleccion";
             this.btnSeleccion.Size = new System.Drawing.Size(216, 40);
             this.btnSeleccion.TabIndex = 4;
@@ -158,6 +162,18 @@
             this.lblSeleccion.Size = new System.Drawing.Size(0, 19);
             this.lblSeleccion.TabIndex = 10;
             // 
+            // gbOficios
+            // 
+            this.gbOficios.Controls.Add(this.clbOficio);
+            this.gbOficios.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbOficios.Location = new System.Drawing.Point(217, 121);
+            this.gbOficios.Name = "gbOficios";
+            this.gbOficios.Size = new System.Drawing.Size(231, 118);
+            this.gbOficios.TabIndex = 11;
+            this.gbOficios.TabStop = false;
+            this.gbOficios.Text = "Oficios";
+            this.gbOficios.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
             // Ejercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -168,7 +184,7 @@
             this.Controls.Add(this.gbEstadoCivil);
             this.Controls.Add(this.gbSexo);
             this.Controls.Add(this.btnSeleccion);
-            this.Controls.Add(this.clbOficio);
+            this.Controls.Add(this.gbOficios);
             this.Name = "Ejercicio3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio3";
@@ -177,6 +193,7 @@
             this.gbSexo.PerformLayout();
             this.gbEstadoCivil.ResumeLayout(false);
             this.gbEstadoCivil.PerformLayout();
+            this.gbOficios.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,5 +210,6 @@
         private System.Windows.Forms.RadioButton rbSoltero;
         private System.Windows.Forms.RadioButton rbCasado;
         private System.Windows.Forms.Label lblSeleccion;
+        private System.Windows.Forms.GroupBox gbOficios;
     }
 }
