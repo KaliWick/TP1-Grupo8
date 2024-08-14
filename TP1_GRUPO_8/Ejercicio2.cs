@@ -88,5 +88,10 @@ namespace TP1_GRUPO_8
         {
             btnBorrar.BackColor = SystemColors.InactiveBorder;
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
