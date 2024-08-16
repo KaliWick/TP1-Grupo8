@@ -79,6 +79,7 @@
             // lbNombres1
             // 
             this.lbNombres1.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.lbNombres1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbNombres1.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombres1.ForeColor = System.Drawing.Color.Green;
             this.lbNombres1.FormattingEnabled = true;
@@ -93,6 +94,7 @@
             // lbNombres2
             // 
             this.lbNombres2.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.lbNombres2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbNombres2.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombres2.ForeColor = System.Drawing.Color.Red;
             this.lbNombres2.FormattingEnabled = true;

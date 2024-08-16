@@ -112,12 +112,13 @@
             // 
             // lbLista
             // 
+            this.lbLista.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbLista.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbLista.FormattingEnabled = true;
             this.lbLista.ItemHeight = 18;
             this.lbLista.Location = new System.Drawing.Point(78, 29);
             this.lbLista.Name = "lbLista";
-            this.lbLista.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.lbLista.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lbLista.Size = new System.Drawing.Size(219, 292);
             this.lbLista.Sorted = true;
             this.lbLista.TabIndex = 6;
