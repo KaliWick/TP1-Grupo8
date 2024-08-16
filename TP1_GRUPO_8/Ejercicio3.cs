@@ -17,28 +17,8 @@ namespace TP1_GRUPO_8
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblSexo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
+    
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }
@@ -65,11 +45,13 @@ namespace TP1_GRUPO_8
         private void btnSeleccion_MouseMove(object sender, MouseEventArgs e)
         {
             btnSeleccion.BackColor = Color.DimGray;
+            btnSeleccion.ForeColor = Color.LightGray;
         }
 
         private void btnSeleccion_MouseLeave(object sender, EventArgs e)
         {
-            btnSeleccion.BackColor = Color.DimGray;
+            btnSeleccion.BackColor = Color.DarkGray;
+            btnSeleccion.ForeColor = Color.DimGray;
         }
 
         private void Ejercicio3_Load(object sender, EventArgs e)
@@ -77,19 +59,5 @@ namespace TP1_GRUPO_8
 
         }
 
-        private void label1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_3(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }

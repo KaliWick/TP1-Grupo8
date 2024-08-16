@@ -49,7 +49,7 @@
             this.clbOficio.BackColor = System.Drawing.SystemColors.Info;
             this.clbOficio.CheckOnClick = true;
             this.clbOficio.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.clbOficio.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clbOficio.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clbOficio.FormattingEnabled = true;
             this.clbOficio.Items.AddRange(new object[] {
             "Data Entry",
@@ -57,22 +57,24 @@
             "Programador",
             "Reparador de PC",
             "Tester"});
-            this.clbOficio.Location = new System.Drawing.Point(6, 21);
+            this.clbOficio.Location = new System.Drawing.Point(7, 23);
+            this.clbOficio.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.clbOficio.Name = "clbOficio";
-            this.clbOficio.Size = new System.Drawing.Size(216, 89);
+            this.clbOficio.Size = new System.Drawing.Size(251, 94);
             this.clbOficio.TabIndex = 0;
             this.clbOficio.UseWaitCursor = true;
             this.clbOficio.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // btnSeleccion
             // 
-            this.btnSeleccion.BackColor = System.Drawing.Color.DimGray;
+            this.btnSeleccion.BackColor = System.Drawing.Color.LightGray;
             this.btnSeleccion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSeleccion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccion.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSeleccion.Location = new System.Drawing.Point(224, 241);
+            this.btnSeleccion.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeleccion.ForeColor = System.Drawing.Color.DimGray;
+            this.btnSeleccion.Location = new System.Drawing.Point(241, 293);
+            this.btnSeleccion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSeleccion.Name = "btnSeleccion";
-            this.btnSeleccion.Size = new System.Drawing.Size(216, 40);
+            this.btnSeleccion.Size = new System.Drawing.Size(299, 43);
             this.btnSeleccion.TabIndex = 4;
             this.btnSeleccion.Text = "Mostrar lo que se seleccionó";
             this.btnSeleccion.UseVisualStyleBackColor = false;
@@ -84,10 +86,12 @@
             // 
             this.gbSexo.Controls.Add(this.rbMasculino);
             this.gbSexo.Controls.Add(this.rbFemenino);
-            this.gbSexo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbSexo.Location = new System.Drawing.Point(21, 15);
+            this.gbSexo.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbSexo.Location = new System.Drawing.Point(24, 16);
+            this.gbSexo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gbSexo.Name = "gbSexo";
-            this.gbSexo.Size = new System.Drawing.Size(200, 100);
+            this.gbSexo.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gbSexo.Size = new System.Drawing.Size(233, 108);
             this.gbSexo.TabIndex = 8;
             this.gbSexo.TabStop = false;
             this.gbSexo.Text = "Sexo";
@@ -97,9 +101,10 @@
             // 
             this.rbMasculino.AutoSize = true;
             this.rbMasculino.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbMasculino.Location = new System.Drawing.Point(9, 59);
+            this.rbMasculino.Location = new System.Drawing.Point(10, 64);
+            this.rbMasculino.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rbMasculino.Name = "rbMasculino";
-            this.rbMasculino.Size = new System.Drawing.Size(89, 23);
+            this.rbMasculino.Size = new System.Drawing.Size(100, 23);
             this.rbMasculino.TabIndex = 1;
             this.rbMasculino.Text = "Masculino";
             this.rbMasculino.UseVisualStyleBackColor = true;
@@ -109,9 +114,10 @@
             this.rbFemenino.AutoSize = true;
             this.rbFemenino.Checked = true;
             this.rbFemenino.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbFemenino.Location = new System.Drawing.Point(9, 36);
+            this.rbFemenino.Location = new System.Drawing.Point(10, 39);
+            this.rbFemenino.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rbFemenino.Name = "rbFemenino";
-            this.rbFemenino.Size = new System.Drawing.Size(86, 23);
+            this.rbFemenino.Size = new System.Drawing.Size(99, 23);
             this.rbFemenino.TabIndex = 0;
             this.rbFemenino.TabStop = true;
             this.rbFemenino.Text = "Femenino";
@@ -121,10 +127,12 @@
             // 
             this.gbEstadoCivil.Controls.Add(this.rbSoltero);
             this.gbEstadoCivil.Controls.Add(this.rbCasado);
-            this.gbEstadoCivil.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbEstadoCivil.Location = new System.Drawing.Point(449, 15);
+            this.gbEstadoCivil.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbEstadoCivil.Location = new System.Drawing.Point(524, 16);
+            this.gbEstadoCivil.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gbEstadoCivil.Name = "gbEstadoCivil";
-            this.gbEstadoCivil.Size = new System.Drawing.Size(200, 100);
+            this.gbEstadoCivil.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gbEstadoCivil.Size = new System.Drawing.Size(233, 108);
             this.gbEstadoCivil.TabIndex = 9;
             this.gbEstadoCivil.TabStop = false;
             this.gbEstadoCivil.Text = "Estado Civil";
@@ -133,9 +141,10 @@
             // 
             this.rbSoltero.AutoSize = true;
             this.rbSoltero.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbSoltero.Location = new System.Drawing.Point(7, 59);
+            this.rbSoltero.Location = new System.Drawing.Point(8, 64);
+            this.rbSoltero.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rbSoltero.Name = "rbSoltero";
-            this.rbSoltero.Size = new System.Drawing.Size(71, 23);
+            this.rbSoltero.Size = new System.Drawing.Size(81, 23);
             this.rbSoltero.TabIndex = 1;
             this.rbSoltero.Text = "Soltero";
             this.rbSoltero.UseVisualStyleBackColor = true;
@@ -145,9 +154,10 @@
             this.rbCasado.AutoSize = true;
             this.rbCasado.Checked = true;
             this.rbCasado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbCasado.Location = new System.Drawing.Point(7, 36);
+            this.rbCasado.Location = new System.Drawing.Point(8, 39);
+            this.rbCasado.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rbCasado.Name = "rbCasado";
-            this.rbCasado.Size = new System.Drawing.Size(74, 23);
+            this.rbCasado.Size = new System.Drawing.Size(81, 23);
             this.rbCasado.TabIndex = 0;
             this.rbCasado.TabStop = true;
             this.rbCasado.Text = "Casado";
@@ -157,7 +167,8 @@
             // 
             this.lblSeleccion.AutoSize = true;
             this.lblSeleccion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeleccion.Location = new System.Drawing.Point(26, 293);
+            this.lblSeleccion.Location = new System.Drawing.Point(30, 316);
+            this.lblSeleccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSeleccion.Name = "lblSeleccion";
             this.lblSeleccion.Size = new System.Drawing.Size(0, 19);
             this.lblSeleccion.TabIndex = 10;
@@ -165,26 +176,29 @@
             // gbOficios
             // 
             this.gbOficios.Controls.Add(this.clbOficio);
-            this.gbOficios.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbOficios.Location = new System.Drawing.Point(217, 121);
+            this.gbOficios.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbOficios.Location = new System.Drawing.Point(253, 130);
+            this.gbOficios.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gbOficios.Name = "gbOficios";
-            this.gbOficios.Size = new System.Drawing.Size(231, 118);
+            this.gbOficios.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gbOficios.Size = new System.Drawing.Size(270, 132);
             this.gbOficios.TabIndex = 11;
             this.gbOficios.TabStop = false;
             this.gbOficios.Text = "Oficios";
-            this.gbOficios.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // Ejercicio3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(676, 483);
+            this.ClientSize = new System.Drawing.Size(789, 520);
             this.Controls.Add(this.lblSeleccion);
             this.Controls.Add(this.gbEstadoCivil);
             this.Controls.Add(this.gbSexo);
             this.Controls.Add(this.btnSeleccion);
             this.Controls.Add(this.gbOficios);
+            this.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Ejercicio3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio3";
